@@ -1,3 +1,9 @@
+gedit (2.30.4) olivia; urgency=low
+
+  * 2.30.4
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 25 Apr 2013 14:09:07 +0100
+
 gedit (2.30.4-2ubuntu1) natty; urgency=low
 
   * Merge from debian unstable.  Remaining changes: (LP: #708401)
