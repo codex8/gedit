@@ -30,8 +30,7 @@ Build-Depends: cdbs (>= 0.4.41),
                python-gobject-dev (>= 2.15.4),
                python-gtk2-dev (>= 2.12.0),
                python-gtksourceview2 (>= 2.9.2),
-               scrollkeeper,
-               liblaunchpad-integration-dev (>= 0.1.17)
+               scrollkeeper
 Build-Depends-Indep: libglib2.0-doc,
                      libgtk2.0-doc,
                      libgtksourceview2.0-doc
