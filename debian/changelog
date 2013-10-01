@@ -1,10 +1,4 @@
-gedit (2.30.4-linuxmint1) petra; urgency=low
-
-  * Fixed compilation errors on void * pointer arithmetic
-
- -- Clement Lefebvre <root@linuxmint.com>  Tue, 01 Oct 2013 10:10:36 +0100
-
-gedit (2.30.4) olivia; urgency=low
+gedit (2.30.4) petra; urgency=low
 
   * 2.30.4
 
