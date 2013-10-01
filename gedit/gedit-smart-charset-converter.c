@@ -153,7 +153,7 @@ try_convert (GCharsetConverter *converter,
 	do
 	{
 		res = g_converter_convert (G_CONVERTER (converter),
-		                           inbuf + nread,
+		                           ((const char*)inbuf) + nread,
 		                           inbuf_size - nread,
 		                           out + nwritten,
 		                           out_size - nwritten,

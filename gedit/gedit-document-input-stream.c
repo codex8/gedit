@@ -426,7 +426,7 @@ gedit_document_input_stream_read (GInputStream  *stream,
 
 	do
 	{
-		n = read_line (dstream, buffer + read, space_left);
+		n = read_line (dstream, ((char*)buffer) + read, space_left);
 		read += n;
 		space_left -= n;
 	} while (space_left > 0 && n != 0 && dstream->priv->bytes_partial == 0);
@@ -451,7 +451,7 @@ gedit_document_input_stream_read (GInputStream  *stream,
 
 			newline = get_new_line (dstream);
 
-			memcpy (buffer + read, newline, newline_size);
+			memcpy (((char*)buffer) + read, newline, newline_size);
 
 			read += newline_size;
 			dstream->priv->newline_added = TRUE;
